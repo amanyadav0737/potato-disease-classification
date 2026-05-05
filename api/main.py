@@ -17,7 +17,7 @@ app.add_middleware(
 
 # Load model
 MODEL = load_model(
-    "../potatoes.h5",
+    "potatoes.h5",
     custom_objects={"RandomFlip": RandomFlip}
 )
 
